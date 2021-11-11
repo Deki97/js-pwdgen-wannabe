@@ -4,7 +4,7 @@
 // Infine scrivi sulla pagina nomecognomecolorepreferito21
 
 
-// FASE DI DICHIARAZIONE
+// FASE DI INPUT E DICHIARAZIONE
 // Inserimento Nome
 const userName = prompt('Inserisci il tuo nome:');
 // console.log(userName);
