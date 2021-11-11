@@ -4,6 +4,7 @@
 // Infine scrivi sulla pagina nomecognomecolorepreferito21
 
 
+// FASE DI DICHIARAZIONE
 // Inserimento Nome
 const userName = prompt('Inserisci il tuo nome:');
 // console.log(userName);
@@ -16,17 +17,15 @@ const userSurname = prompt('Inserisci il tuo cognome:');
 const favoriteColor = prompt('Inserisci il tuo colore preferito:');
 // console.log(favoriteColor);
 
-
 // Dichiarazione costante annoCorrente
-const annoCorrente = 21;
-
-// Conversione annoCorrente in stringa, cosi alla fine ho una concatenazione di tutte stringhe
-const annoCorrenteAsString = annoCorrente.toString();
+const annoCorrente = '21';
 
 
+// LOGICA
 // Concatenazione Stringhe (Generazione Password Sicurissima)
-const password = userName + userSurname + favoriteColor + annoCorrenteAsString;
+const password = userName + userSurname + favoriteColor + annoCorrente;
 
 
+// OUTPUT
 // Output nel tag html <h1>
 document.getElementById('passwordGenerata').innerHTML = 'La password generata è : ' + password;
